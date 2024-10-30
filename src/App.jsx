@@ -1,6 +1,12 @@
+import Info from "./components/mainPage/Info"
+import './index.css'
+
+
 const App = () => {
   return (
-    <div className=''>App</div>
+    <div className="container">
+      <Info />
+    </div>
   )
 }
 
